@@ -150,9 +150,9 @@ def plot_2d_horizontal_subset(bounda, t, z=None, var='votemper',
     add_cbar(fig, ax, p0, 'Temperature')
 
     if z is None:
-        plt.savefig('glosea_{0}_{1}_slab_sw.png'.format(var, t))
+        plt.savefig('glosea_{0}_{1}_slab.png'.format(var, t))
     else:
-        plt.savefig('glosea_{0}_{1}_{2}_slab_sw.png'.format(var, t, z))
+        plt.savefig('glosea_{0}_{1}_{2}_slab.png'.format(var, t, z))
 
 # x0, x1, y0, y1
 bounds = [1060, 1160, 1300, 1400]
